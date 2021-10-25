@@ -1,0 +1,101 @@
+body {
+background-color: #F9F9F9;
+color: rgb(50, 50, 50);
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+letter-spacing: 4px;
+font-size: 16px;
+}
+
+h1, h2, h3 {
+
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-weight: 400;
+}
+h1 {
+color: #A790E4;
+font-size: 32px;
+font-weight: 700
+}
+h2 {
+color: #3EDBF0;
+font-size: 24px;
+font-weight: 300;
+
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+	color: #C490E4;
+	font-weight: 600;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #F6C6EA;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	margin: 50px 0px;
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.1);
+	border-radius : 4px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius : 50%;
+}
+
+.btn-blue{
+	background-color: #C490E4;
+	color: white;
+	padding: 15px 20px;
+	border-radius : 4px;
+	margin: 100px 0px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(190,190,190);
+}
+
+.list-inline i:hover {
+	color: rgb(30,30,30);
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
